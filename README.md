@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Pokémon Battle Arena
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue dans **Pokémon Battle Arena**, un jeu web interactif où vous pouvez construire votre propre équipe de Pokémon et les faire combattre dans une arène virtuelle. Ce projet est développé avec React et utilise l'API Pokémon pour récupérer des données en temps réel sur les Pokémon de la première génération.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- **Landing Page** : Une page d'accueil accueillante avec le logo Pokémon où vous pouvez commencer votre aventure.
+- **Team Builder** : Une interface intuitive pour sélectionner et organiser votre équipe de Pokémon à partir des 151 Pokémon de la première génération.
+- **Battle Arena** : Une arène où vous pouvez faire combattre vos Pokémon contre des adversaires aléatoires ou choisis.
 
-### `npm start`
+## Aperçu du Jeu
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Landing Page** :
+   - Lorsque vous arrivez sur la page d'accueil, vous êtes accueilli par le logo Pokémon et une option pour commencer à construire votre équipe.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Team Builder** :
+   - Dans cette section, vous pouvez sélectionner jusqu'à 6 Pokémon pour former votre équipe.
+   - Chaque Pokémon est affiché avec son image, ses types, ses points de vie (PV) et ses compétences.
+   - Vous pouvez ajouter des Pokémon à votre équipe en cliquant sur le bouton **Ajouter** ou les retirer de votre équipe.
 
-### `npm test`
+3. **Battle Arena** :
+   - Une fois votre équipe prête, vous pouvez sélectionner un Pokémon de votre équipe et un Pokémon adverse pour lancer un combat.
+   - Le combat est simulé en comparant les PV des Pokémon sélectionnés, et le résultat du combat est affiché à l'écran.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+### Prérequis
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js et npm doivent être installés sur votre machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Étapes d'installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clonez ce dépôt sur votre machine locale :
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/votre-utilisateur/pokemon-battle-arena.git
