@@ -34,3 +34,25 @@ Bienvenue dans **Pokémon Battle Arena**, un jeu web interactif où vous pouvez 
 
    ```bash
    git clone https://github.com/votre-utilisateur/pokemon-battle-arena.git
+
+
+## Schéma d'Architecture Backend
+[ Client (React App) ]
+      |
+      |---(1)--- [ Landing Page ]
+      |            - Affichage du logo
+      |            - Option pour commencer
+      |
+      |---(2)--- [ Team Builder ]
+      |            - Sélection et organisation de Pokémon
+      |            - Affichage des détails des Pokémon
+      |
+      |---(3)--- [ Battle Arena ]
+                   - Sélection des Pokémon pour combat
+                   - Affichage des résultats du combat
+      |
+      v
+[ API Pokémon ] <---> [ External Pokémon Data ]
+      |
+      |---(4)--- [ Pokémon Data Retrieval ]
+                   - Requêtes API pour obtenir les données des Pokémon
